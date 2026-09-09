@@ -7,3 +7,5 @@ __pycache__/
 final_figures/
 *.mat
 __pycache__/
+run_*.mat
+__pycache__/
