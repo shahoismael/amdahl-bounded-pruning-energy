@@ -5,7 +5,5 @@ Thumbs.db
 __pycache__/
 *.pyc
 final_figures/
-*.mat
 __pycache__/
-run_*.mat
 __pycache__/
