@@ -1,0 +1,175 @@
+ChestX-ray14 v3 started 15-Aug-2026 02:40:26
+ChestX-ray14: indexed 112120 image files
+  resolved 2001 images on disk
+  decoded 250/2001
+  decoded 500/2001
+  decoded 750/2001
+  decoded 1000/2001
+  decoded 1250/2001
+  decoded 1500/2001
+  decoded 1750/2001
+  decoded 2000/2001
+  class balance: NoFinding 1049 (52.42%), Finding 952 (47.58%)
+  images: 1343 train / 371 val / 287 test  (525 patients)
+
+[ChestX-ray14] training baseline (train_baseline)...
+Training on single CPU.
+Initializing input data normalization.
+|======================================================================================================================|
+|  Epoch  |  Iteration  |  Time Elapsed  |  Mini-batch  |  Validation  |  Mini-batch  |  Validation  |  Base Learning  |
+|         |             |   (hh:mm:ss)   |   Accuracy   |   Accuracy   |     Loss     |     Loss     |      Rate       |
+|======================================================================================================================|
+|       1 |           1 |       00:00:04 |       45.31% |       49.33% |       1.0042 |      17.0884 |          0.0010 |
+|       5 |          50 |       00:01:28 |       60.16% |       52.83% |       1.3516 |       1.5520 |          0.0010 |
+|      10 |         100 |       00:02:32 |       75.00% |       58.49% |       0.4886 |       0.7999 |          0.0010 |
+|======================================================================================================================|
+Training finished: Max epochs completed.
+[ChestX-ray14] fine-tuning control arm (no pruning)...
+  [CONTROL] iteration 1/2 complete | remaining prunables: 39
+  [CONTROL] iteration 2/2 complete | remaining prunables: 39
+  [CONTROL] done. learnables: 70434
+[ChestX-ray14] pruning arm...
+  [PRUNE] iteration 1/2 complete | remaining prunables: 35
+  [PRUNE] iteration 2/2 complete | remaining prunables: 31
+  [PRUNE] done. learnables: 52874
+
+[ChestX-ray14] theoretical cost, baseline:
+--- FLOP report -------------------------------------------
+       <strong>Layer</strong>                      <strong>Type</strong>                      <strong>OutputSize</strong>          <strong>MACs</strong>   
+    <strong>___________</strong>    <strong>__________________________________</strong>    <strong>________________</strong>    <strong>__________</strong>
+
+    {'input'  }    {'nnet.cnn.layer.ImageInputLayer'}    {'[128 128]'   }             0
+    {'conv1'  }    {'conv2d'                        }    {'[128 128 16]'}    2.3593e+06
+    {'bn1'    }    {'batchnorm'                     }    {'[128 128 16]'}             0
+    {'relu1'  }    {'relu'                          }    {'[128 128 16]'}             0
+    {'pool1'  }    {'maxpool'                       }    {'[64 64 16]'  }             0
+    {'conv2'  }    {'conv2d'                        }    {'[64 64 32]'  }    1.8874e+07
+    {'bn2'    }    {'batchnorm'                     }    {'[64 64 32]'  }             0
+    {'relu2'  }    {'relu'                          }    {'[64 64 32]'  }             0
+    {'pool2'  }    {'maxpool'                       }    {'[32 32 32]'  }             0
+    {'fc'     }    {'fc'                            }    {'[2 1]'       }         65536
+    {'softmax'}    {'nnet.cnn.layer.SoftmaxLayer'   }    {'[2 1]'       }             0
+
+  conv MACs         :     21233664
+  fc   MACs         :        65536
+  TOTAL MACs        :     21299200
+  TOTAL FLOPs (2xM) :     42598400
+  learnable params  :        70434
+-----------------------------------------------------------
+[ChestX-ray14] theoretical cost, baseline_ft:
+--- FLOP report -------------------------------------------
+       <strong>Layer</strong>                      <strong>Type</strong>                      <strong>OutputSize</strong>          <strong>MACs</strong>   
+    <strong>___________</strong>    <strong>__________________________________</strong>    <strong>________________</strong>    <strong>__________</strong>
+
+    {'input'  }    {'nnet.cnn.layer.ImageInputLayer'}    {'[128 128]'   }             0
+    {'conv1'  }    {'conv2d'                        }    {'[128 128 16]'}    2.3593e+06
+    {'bn1'    }    {'batchnorm'                     }    {'[128 128 16]'}             0
+    {'relu1'  }    {'relu'                          }    {'[128 128 16]'}             0
+    {'pool1'  }    {'maxpool'                       }    {'[64 64 16]'  }             0
+    {'conv2'  }    {'conv2d'                        }    {'[64 64 32]'  }    1.8874e+07
+    {'bn2'    }    {'batchnorm'                     }    {'[64 64 32]'  }             0
+    {'relu2'  }    {'relu'                          }    {'[64 64 32]'  }             0
+    {'pool2'  }    {'maxpool'                       }    {'[32 32 32]'  }             0
+    {'fc'     }    {'fc'                            }    {'[2 1]'       }         65536
+    {'softmax'}    {'nnet.cnn.layer.SoftmaxLayer'   }    {'[2 1]'       }             0
+
+  conv MACs         :     21233664
+  fc   MACs         :        65536
+  TOTAL MACs        :     21299200
+  TOTAL FLOPs (2xM) :     42598400
+  learnable params  :        70434
+-----------------------------------------------------------
+[ChestX-ray14] theoretical cost, pruned:
+--- FLOP report -------------------------------------------
+       <strong>Layer</strong>                      <strong>Type</strong>                      <strong>OutputSize</strong>          <strong>MACs</strong>   
+    <strong>___________</strong>    <strong>__________________________________</strong>    <strong>________________</strong>    <strong>__________</strong>
+
+    {'input'  }    {'nnet.cnn.layer.ImageInputLayer'}    {'[128 128]'   }             0
+    {'conv1'  }    {'conv2d'                        }    {'[128 128 16]'}    2.3593e+06
+    {'bn1'    }    {'batchnorm'                     }    {'[128 128 16]'}             0
+    {'relu1'  }    {'relu'                          }    {'[128 128 16]'}             0
+    {'pool1'  }    {'maxpool'                       }    {'[64 64 16]'  }             0
+    {'conv2'  }    {'conv2d'                        }    {'[64 64 24]'  }    1.4156e+07
+    {'bn2'    }    {'batchnorm'                     }    {'[64 64 24]'  }             0
+    {'relu2'  }    {'relu'                          }    {'[64 64 24]'  }             0
+    {'pool2'  }    {'maxpool'                       }    {'[32 32 24]'  }             0
+    {'fc'     }    {'fc'                            }    {'[2 1]'       }         49152
+    {'softmax'}    {'nnet.cnn.layer.SoftmaxLayer'   }    {'[2 1]'       }             0
+
+  conv MACs         :     16515072
+  fc   MACs         :        49152
+  TOTAL MACs        :     16564224
+  TOTAL FLOPs (2xM) :     33128448
+  learnable params  :        52874
+-----------------------------------------------------------
+
+[ChestX-ray14] THEORETICAL MAC reduction   : 22.23%
+[ChestX-ray14] THEORETICAL param reduction : 24.93%
+
+[ChestX-ray14] test set: NoFinding=128  Finding=159
+[ChestX-ray14] majority-class baseline: 55.40%
+[ChestX-ray14] accuracy   baseline 61.32%  baseline_ft 57.49%  pruned 55.05%
+[ChestX-ray14] balanced   baseline 60.91%  baseline_ft 56.08%  pruned 56.84%
+[ChestX-ray14]   effect of extra training : -4.83 pp balanced
+[ChestX-ray14]   effect of pruning alone  : +0.77 pp balanced
+
+[ChestX-ray14] burn-in 300 s (discarded)...
+[ChestX-ray14] burn-in done (3333 batches).
+
+=== Interleaved measurement: 10 blocks x 3 conditions ===
+    60 s per measurement, 60 s settle, order randomised per block
+
+-- block 1/10  order: pruned -> baseline -> baseline_ft
+[pruned        ]    329 batches x  64 =     21056 inferences in  60.13 s |    350.2 inf/s | 182.7683 ms/batch
+[baseline      ]    299 batches x  64 =     19136 inferences in  60.06 s |    318.6 inf/s | 200.8758 ms/batch
+[baseline_ft   ]    190 batches x  64 =     12160 inferences in  60.01 s |    202.6 inf/s | 315.8307 ms/batch
+
+-- block 2/10  order: pruned -> baseline_ft -> baseline
+[pruned        ]    377 batches x  64 =     24128 inferences in  60.14 s |    401.2 inf/s | 159.5354 ms/batch
+[baseline_ft   ]    342 batches x  64 =     21888 inferences in  60.11 s |    364.2 inf/s | 175.7509 ms/batch
+[baseline      ]    341 batches x  64 =     21824 inferences in  60.03 s |    363.5 inf/s | 176.0460 ms/batch
+
+-- block 3/10  order: baseline -> baseline_ft -> pruned
+[baseline      ]    348 batches x  64 =     22272 inferences in  60.16 s |    370.2 inf/s | 172.8763 ms/batch
+[baseline_ft   ]    345 batches x  64 =     22080 inferences in  60.12 s |    367.3 inf/s | 174.2505 ms/batch
+[pruned        ]    378 batches x  64 =     24192 inferences in  60.08 s |    402.6 inf/s | 158.9492 ms/batch
+
+-- block 4/10  order: baseline_ft -> baseline -> pruned
+[baseline_ft   ]    345 batches x  64 =     22080 inferences in  60.07 s |    367.6 inf/s | 174.1027 ms/batch
+[baseline      ]    345 batches x  64 =     22080 inferences in  60.12 s |    367.3 inf/s | 174.2647 ms/batch
+[pruned        ]    377 batches x  64 =     24128 inferences in  60.11 s |    401.4 inf/s | 159.4465 ms/batch
+
+-- block 5/10  order: pruned -> baseline -> baseline_ft
+[pruned        ]    378 batches x  64 =     24192 inferences in  60.12 s |    402.4 inf/s | 159.0511 ms/batch
+[baseline      ]    343 batches x  64 =     21952 inferences in  60.11 s |    365.2 inf/s | 175.2521 ms/batch
+[baseline_ft   ]    342 batches x  64 =     21888 inferences in  60.06 s |    364.4 inf/s | 175.6274 ms/batch
+
+-- block 6/10  order: baseline_ft -> pruned -> baseline
+[baseline_ft   ]    342 batches x  64 =     21888 inferences in  60.00 s |    364.8 inf/s | 175.4496 ms/batch
+[pruned        ]    366 batches x  64 =     23424 inferences in  60.02 s |    390.3 inf/s | 163.9815 ms/batch
+[baseline      ]    254 batches x  64 =     16256 inferences in  60.00 s |    270.9 inf/s | 236.2370 ms/batch
+
+-- block 7/10  order: baseline -> baseline_ft -> pruned
+[baseline      ]    259 batches x  64 =     16576 inferences in  60.08 s |    275.9 inf/s | 231.9862 ms/batch
+[baseline_ft   ]    254 batches x  64 =     16256 inferences in  60.01 s |    270.9 inf/s | 236.2576 ms/batch
+[pruned        ]    280 batches x  64 =     17920 inferences in  60.10 s |    298.2 inf/s | 214.6272 ms/batch
+
+-- block 8/10  order: baseline_ft -> pruned -> baseline
+[baseline_ft   ]    260 batches x  64 =     16640 inferences in  60.09 s |    276.9 inf/s | 231.1265 ms/batch
+[pruned        ]    278 batches x  64 =     17792 inferences in  60.16 s |    295.8 inf/s | 216.3875 ms/batch
+[baseline      ]    260 batches x  64 =     16640 inferences in  60.22 s |    276.3 inf/s | 231.6096 ms/batch
+
+-- block 9/10  order: pruned -> baseline -> baseline_ft
+[pruned        ]    278 batches x  64 =     17792 inferences in  60.22 s |    295.5 inf/s | 216.6048 ms/batch
+[baseline      ]    254 batches x  64 =     16256 inferences in  60.07 s |    270.6 inf/s | 236.4973 ms/batch
+[baseline_ft   ]    256 batches x  64 =     16384 inferences in  60.05 s |    272.8 inf/s | 234.5614 ms/batch
+
+-- block 10/10  order: baseline -> baseline_ft -> pruned
+[baseline      ]    264 batches x  64 =     16896 inferences in  60.07 s |    281.3 inf/s | 227.5246 ms/batch
+[baseline_ft   ]    255 batches x  64 =     16320 inferences in  60.07 s |    271.7 inf/s | 235.5789 ms/batch
+[pruned        ]    277 batches x  64 =     17728 inferences in  60.16 s |    294.7 inf/s | 217.1938 ms/batch
+
+[ChestX-ray14] wrote D:\claude_projects\ICIEAHS 2026\final_submission\results\measurements_ChestX-ray14_20260815_041048.csv
+[ChestX-ray14] wrote D:\claude_projects\ICIEAHS 2026\final_submission\results\eval_ChestX-ray14_20260815_041048.csv
+[ChestX-ray14] wrote D:\claude_projects\ICIEAHS 2026\final_submission\results\run_ChestX-ray14_20260815_041048.mat
+ChestX-ray14 v3 finished 15-Aug-2026 04:10:49

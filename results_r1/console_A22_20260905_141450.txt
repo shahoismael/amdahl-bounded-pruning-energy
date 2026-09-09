@@ -1,0 +1,83 @@
+A22 ratio sweep started 05-Sep-2026 14:14:50
+ratios (maxToPrune per iteration): [2 4 7 10]
+Loaded 60000 images (28x28) and 60000 labels.
+Loaded 10000 images (28x28) and 10000 labels.
+
+##### MNIST  maxToPrune = 2 #####
+
+[MNIST-r2] training baseline (train_baseline)...
+Training on single CPU.
+Initializing input data normalization.
+|======================================================================================================================|
+|  Epoch  |  Iteration  |  Time Elapsed  |  Mini-batch  |  Validation  |  Mini-batch  |  Validation  |  Base Learning  |
+|         |             |   (hh:mm:ss)   |   Accuracy   |   Accuracy   |     Loss     |     Loss     |      Rate       |
+|======================================================================================================================|
+|       1 |           1 |       00:00:03 |       10.94% |       10.08% |       2.9969 |       2.6193 |          0.0010 |
+|       1 |          50 |       00:00:13 |       92.19% |       93.30% |       0.2875 |       0.2562 |          0.0010 |
+|       1 |         100 |       00:00:21 |       93.75% |       96.12% |       0.1941 |       0.1446 |          0.0010 |
+|       1 |         150 |       00:00:32 |       97.66% |       96.67% |       0.0680 |       0.1165 |          0.0010 |
+|       1 |         200 |       00:00:43 |       97.66% |       97.38% |       0.1109 |       0.0934 |          0.0010 |
+|       1 |         250 |       00:00:54 |       91.41% |       96.87% |       0.2715 |       0.0979 |          0.0010 |
+|       1 |         300 |       00:01:04 |       95.31% |       97.60% |       0.1122 |       0.0850 |          0.0010 |
+|       1 |         350 |       00:01:14 |       96.09% |       98.02% |       0.0905 |       0.0681 |          0.0010 |
+|       1 |         400 |       00:01:24 |       99.22% |       98.00% |       0.0328 |       0.0737 |          0.0010 |
+|       2 |         450 |       00:01:35 |       97.66% |       98.33% |       0.0924 |       0.0609 |          0.0010 |
+|       2 |         500 |       00:01:46 |       99.22% |       97.93% |       0.0416 |       0.0668 |          0.0010 |
+|       2 |         550 |       00:01:56 |       97.66% |       98.15% |       0.0809 |       0.0624 |          0.0010 |
+|       2 |         600 |       00:02:05 |       99.22% |       98.52% |       0.0344 |       0.0529 |          0.0010 |
+|       2 |         650 |       00:02:15 |      100.00% |       98.10% |       0.0230 |       0.0638 |          0.0010 |
+|       2 |         700 |       00:02:25 |       97.66% |       98.37% |       0.0552 |       0.0608 |          0.0010 |
+|       2 |         750 |       00:02:31 |       99.22% |       98.42% |       0.0377 |       0.0542 |          0.0010 |
+|       2 |         800 |       00:02:38 |       99.22% |       98.53% |       0.0227 |       0.0531 |          0.0010 |
+|       3 |         850 |       00:02:47 |       96.88% |       98.53% |       0.0975 |       0.0538 |          0.0010 |
+|       3 |         900 |       00:02:57 |       97.66% |       98.53% |       0.0599 |       0.0550 |          0.0010 |
+|       3 |         950 |       00:03:06 |       97.66% |       98.48% |       0.0480 |       0.0501 |          0.0010 |
+|       3 |        1000 |       00:03:16 |       99.22% |       98.75% |       0.0222 |       0.0453 |          0.0010 |
+|       3 |        1050 |       00:03:27 |       97.66% |       98.77% |       0.0661 |       0.0469 |          0.0010 |
+|       3 |        1100 |       00:03:36 |       98.44% |       98.70% |       0.0473 |       0.0477 |          0.0010 |
+|       3 |        1150 |       00:03:45 |       97.66% |       98.63% |       0.0693 |       0.0474 |          0.0010 |
+|       3 |        1200 |       00:03:53 |       97.66% |       98.78% |       0.0551 |       0.0436 |          0.0010 |
+|       3 |        1250 |       00:04:03 |       99.22% |       98.58% |       0.0195 |       0.0489 |          0.0010 |
+{Operation terminated by user during <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('nnet.internal.cnn.layer.util.Convolution2DHostStridedConvStrategy/backward', 'C:\Program Files\MATLAB\R2025b\toolbox\nnet\cnn\+nnet\+internal\+cnn\+layer\+util\Convolution2DHostStridedConvStrategy.m', 70)" style="font-weight:bold">nnet.internal.cnn.layer.util.Convolution2DHostStridedConvStrategy/backward</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2025b\toolbox\nnet\cnn\+nnet\+internal\+cnn\+layer\+util\Convolution2DHostStridedConvStrategy.m',70,0)">line 70</a>)
+
+
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('nnet.internal.cnn.layer.Convolution2D/doBackward', 'C:\Program Files\MATLAB\R2025b\toolbox\nnet\cnn\+nnet\+internal\+cnn\+layer\Convolution2D.m', 643)" style="font-weight:bold">nnet.internal.cnn.layer.Convolution2D/doBackward</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2025b\toolbox\nnet\cnn\+nnet\+internal\+cnn\+layer\Convolution2D.m',643,0)">line 643</a>)
+            [varargout{1:nargout}] = this.ExecutionStrategy.backward( ...
+                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('nnet.internal.cnn.layer.Convolution2D/backwardNormal', 'C:\Program Files\MATLAB\R2025b\toolbox\nnet\cnn\+nnet\+internal\+cnn\+layer\Convolution2D.m', 605)" style="font-weight:bold">nnet.internal.cnn.layer.Convolution2D/backwardNormal</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2025b\toolbox\nnet\cnn\+nnet\+internal\+cnn\+layer\Convolution2D.m',605,0)">line 605</a>)
+            [varargout{1:nargout}] = this.doBackward(X, this.Weights.Value, dZ);
+                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('nnet.internal.cnn.layer.Convolution2D/backward', 'C:\Program Files\MATLAB\R2025b\toolbox\nnet\cnn\+nnet\+internal\+cnn\+layer\Convolution2D.m', 237)" style="font-weight:bold">nnet.internal.cnn.layer.Convolution2D/backward</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2025b\toolbox\nnet\cnn\+nnet\+internal\+cnn\+layer\Convolution2D.m',237,0)">line 237</a>)
+                [varargout{1:nargout}] = this.backwardNormal(X, [], dZ, []);
+                                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('nnet.internal.cnn.DAGNetwork/computeGradientsForTraining/efficientBackProp', 'C:\Program Files\MATLAB\R2025b\toolbox\nnet\cnn\+nnet\+internal\+cnn\DAGNetwork.m', 793)" style="font-weight:bold">nnet.internal.cnn.DAGNetwork/computeGradientsForTraining/efficientBackProp</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2025b\toolbox\nnet\cnn\+nnet\+internal\+cnn\DAGNetwork.m',793,0)">line 793</a>)
+                        [dLossdX, dLossdW] = thisLayer.backward( backwardArgs{:} );
+                                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('nnet.internal.cnn.util.executeWithStagedGPUOOMRecovery', 'C:\Program Files\MATLAB\R2025b\toolbox\nnet\cnn\+nnet\+internal\+cnn\+util\executeWithStagedGPUOOMRecovery.m', 11)" style="font-weight:bold">nnet.internal.cnn.util.executeWithStagedGPUOOMRecovery</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2025b\toolbox\nnet\cnn\+nnet\+internal\+cnn\+util\executeWithStagedGPUOOMRecovery.m',11,0)">line 11</a>)
+        [ varargout{1:nOutputs} ] = computeFun(X1, X2);
+                                    ^^^^^^^^^^^^^^^^^^
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('nnet.internal.cnn.DAGNetwork/computeGradientsForTraining', 'C:\Program Files\MATLAB\R2025b\toolbox\nnet\cnn\+nnet\+internal\+cnn\DAGNetwork.m', 852)" style="font-weight:bold">nnet.internal.cnn.DAGNetwork/computeGradientsForTraining</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2025b\toolbox\nnet\cnn\+nnet\+internal\+cnn\DAGNetwork.m',852,0)">line 852</a>)
+                    theseGradients = nnet.internal.cnn.util.executeWithStagedGPUOOMRecovery( ...
+                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('nnet.internal.cnn.Trainer/computeGradients', 'C:\Program Files\MATLAB\R2025b\toolbox\nnet\cnn\+nnet\+internal\+cnn\Trainer.m', 227)" style="font-weight:bold">nnet.internal.cnn.Trainer/computeGradients</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2025b\toolbox\nnet\cnn\+nnet\+internal\+cnn\Trainer.m',227,0)">line 227</a>)
+            [gradients, predictions, states] = net.computeGradientsForTraining(X, Y, propagateState);
+                                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('nnet.internal.cnn.Trainer/train', 'C:\Program Files\MATLAB\R2025b\toolbox\nnet\cnn\+nnet\+internal\+cnn\Trainer.m', 126)" style="font-weight:bold">nnet.internal.cnn.Trainer/train</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2025b\toolbox\nnet\cnn\+nnet\+internal\+cnn\Trainer.m',126,0)">line 126</a>)
+                    [gradients, Y, states] = this.computeGradients(net, X, T);
+                                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('nnet.internal.cnn.trainNetwork.doTrainNetwork', 'C:\Program Files\MATLAB\R2025b\toolbox\nnet\cnn\+nnet\+internal\+cnn\+trainNetwork\doTrainNetwork.m', 108)" style="font-weight:bold">nnet.internal.cnn.trainNetwork.doTrainNetwork</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2025b\toolbox\nnet\cnn\+nnet\+internal\+cnn\+trainNetwork\doTrainNetwork.m',108,0)">line 108</a>)
+trainedNet = trainer.train(trainedNet, trainingDispatcher);
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('trainNetwork', 'C:\Program Files\MATLAB\R2025b\toolbox\nnet\cnn\trainNetwork.m', 189)" style="font-weight:bold">trainNetwork</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2025b\toolbox\nnet\cnn\trainNetwork.m',189,0)">line 189</a>)
+    [trainedNet, info] = nnet.internal.cnn.trainNetwork.doTrainNetwork(factory,varargin{:});
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('train_baseline', 'D:\claude_projects\ICIEAHS 2026\research_v4\code_v1\train_baseline.m', 34)" style="font-weight:bold">train_baseline</a> (<a href="matlab: opentoline('D:\claude_projects\ICIEAHS 2026\research_v4\code_v1\train_baseline.m',34,0)">line 34</a>)
+    net = trainNetwork(XTrain, YTrain, layers, options);
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('run_experiment_v3', 'D:\claude_projects\ICIEAHS 2026\research_v4\code_v1\v2\run_experiment_v3.m', 55)" style="font-weight:bold">run_experiment_v3</a> (<a href="matlab: opentoline('D:\claude_projects\ICIEAHS 2026\research_v4\code_v1\v2\run_experiment_v3.m',55,0)">line 55</a>)
+    baselineNet = opts.trainFcn(XTrain, YTrain, XVal, YVal, numClasses);
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('run_a22_ratios', 'D:\claude_projects\ICIEAHS 2026\research_v4\code_v1\v2\run_a22_ratios.m', 51)" style="font-weight:bold">run_a22_ratios</a> (<a href="matlab: opentoline('D:\claude_projects\ICIEAHS 2026\research_v4\code_v1\v2\run_a22_ratios.m',51,0)">line 51</a>)
+    run_experiment_v3(sprintf('MNIST-r%d', r), XTr,YTr, XVa,YVa, XTe,YTe, ...
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+} 

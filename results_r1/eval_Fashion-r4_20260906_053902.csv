@@ -1,0 +1,4 @@
+arm,top1,balanced,majorityClassRate
+baseline,0.8993,0.8993,0.1
+baseline_ft,0.8914,0.8914,0.1
+pruned,0.8855,0.8855,0.1

@@ -1,0 +1,230 @@
+MIT-BIH v3 started 14-Aug-2026 20:32:40
+Loaded record D:\claude_projects\ICIEAHS 2026\research_v4\datasets\4_MITBIH\mit-bih-arrhythmia-database-1.0.0\100: 650000 samples/signal, fs=360 Hz
+Parsed 2274 annotations from D:\claude_projects\ICIEAHS 2026\research_v4\datasets\4_MITBIH\mit-bih-arrhythmia-database-1.0.0\100.atr
+Loaded record D:\claude_projects\ICIEAHS 2026\research_v4\datasets\4_MITBIH\mit-bih-arrhythmia-database-1.0.0\101: 650000 samples/signal, fs=360 Hz
+Parsed 1874 annotations from D:\claude_projects\ICIEAHS 2026\research_v4\datasets\4_MITBIH\mit-bih-arrhythmia-database-1.0.0\101.atr
+Loaded record D:\claude_projects\ICIEAHS 2026\research_v4\datasets\4_MITBIH\mit-bih-arrhythmia-database-1.0.0\103: 650000 samples/signal, fs=360 Hz
+Parsed 2091 annotations from D:\claude_projects\ICIEAHS 2026\research_v4\datasets\4_MITBIH\mit-bih-arrhythmia-database-1.0.0\103.atr
+Loaded record D:\claude_projects\ICIEAHS 2026\research_v4\datasets\4_MITBIH\mit-bih-arrhythmia-database-1.0.0\105: 650000 samples/signal, fs=360 Hz
+Parsed 2691 annotations from D:\claude_projects\ICIEAHS 2026\research_v4\datasets\4_MITBIH\mit-bih-arrhythmia-database-1.0.0\105.atr
+Loaded record D:\claude_projects\ICIEAHS 2026\research_v4\datasets\4_MITBIH\mit-bih-arrhythmia-database-1.0.0\106: 650000 samples/signal, fs=360 Hz
+Parsed 2098 annotations from D:\claude_projects\ICIEAHS 2026\research_v4\datasets\4_MITBIH\mit-bih-arrhythmia-database-1.0.0\106.atr
+Loaded record D:\claude_projects\ICIEAHS 2026\research_v4\datasets\4_MITBIH\mit-bih-arrhythmia-database-1.0.0\108: 650000 samples/signal, fs=360 Hz
+Parsed 1824 annotations from D:\claude_projects\ICIEAHS 2026\research_v4\datasets\4_MITBIH\mit-bih-arrhythmia-database-1.0.0\108.atr
+Loaded record D:\claude_projects\ICIEAHS 2026\research_v4\datasets\4_MITBIH\mit-bih-arrhythmia-database-1.0.0\109: 650000 samples/signal, fs=360 Hz
+Parsed 2535 annotations from D:\claude_projects\ICIEAHS 2026\research_v4\datasets\4_MITBIH\mit-bih-arrhythmia-database-1.0.0\109.atr
+Loaded record D:\claude_projects\ICIEAHS 2026\research_v4\datasets\4_MITBIH\mit-bih-arrhythmia-database-1.0.0\111: 650000 samples/signal, fs=360 Hz
+Parsed 2133 annotations from D:\claude_projects\ICIEAHS 2026\research_v4\datasets\4_MITBIH\mit-bih-arrhythmia-database-1.0.0\111.atr
+Loaded record D:\claude_projects\ICIEAHS 2026\research_v4\datasets\4_MITBIH\mit-bih-arrhythmia-database-1.0.0\112: 650000 samples/signal, fs=360 Hz
+Parsed 2550 annotations from D:\claude_projects\ICIEAHS 2026\research_v4\datasets\4_MITBIH\mit-bih-arrhythmia-database-1.0.0\112.atr
+Loaded record D:\claude_projects\ICIEAHS 2026\research_v4\datasets\4_MITBIH\mit-bih-arrhythmia-database-1.0.0\113: 650000 samples/signal, fs=360 Hz
+Parsed 1796 annotations from D:\claude_projects\ICIEAHS 2026\research_v4\datasets\4_MITBIH\mit-bih-arrhythmia-database-1.0.0\113.atr
+Loaded record D:\claude_projects\ICIEAHS 2026\research_v4\datasets\4_MITBIH\mit-bih-arrhythmia-database-1.0.0\114: 650000 samples/signal, fs=360 Hz
+Parsed 1890 annotations from D:\claude_projects\ICIEAHS 2026\research_v4\datasets\4_MITBIH\mit-bih-arrhythmia-database-1.0.0\114.atr
+Loaded record D:\claude_projects\ICIEAHS 2026\research_v4\datasets\4_MITBIH\mit-bih-arrhythmia-database-1.0.0\115: 650000 samples/signal, fs=360 Hz
+Parsed 1962 annotations from D:\claude_projects\ICIEAHS 2026\research_v4\datasets\4_MITBIH\mit-bih-arrhythmia-database-1.0.0\115.atr
+Loaded record D:\claude_projects\ICIEAHS 2026\research_v4\datasets\4_MITBIH\mit-bih-arrhythmia-database-1.0.0\116: 650000 samples/signal, fs=360 Hz
+Parsed 2421 annotations from D:\claude_projects\ICIEAHS 2026\research_v4\datasets\4_MITBIH\mit-bih-arrhythmia-database-1.0.0\116.atr
+Loaded record D:\claude_projects\ICIEAHS 2026\research_v4\datasets\4_MITBIH\mit-bih-arrhythmia-database-1.0.0\117: 650000 samples/signal, fs=360 Hz
+Parsed 1539 annotations from D:\claude_projects\ICIEAHS 2026\research_v4\datasets\4_MITBIH\mit-bih-arrhythmia-database-1.0.0\117.atr
+Loaded record D:\claude_projects\ICIEAHS 2026\research_v4\datasets\4_MITBIH\mit-bih-arrhythmia-database-1.0.0\118: 650000 samples/signal, fs=360 Hz
+Parsed 2301 annotations from D:\claude_projects\ICIEAHS 2026\research_v4\datasets\4_MITBIH\mit-bih-arrhythmia-database-1.0.0\118.atr
+Loaded record D:\claude_projects\ICIEAHS 2026\research_v4\datasets\4_MITBIH\mit-bih-arrhythmia-database-1.0.0\119: 650000 samples/signal, fs=360 Hz
+Parsed 2094 annotations from D:\claude_projects\ICIEAHS 2026\research_v4\datasets\4_MITBIH\mit-bih-arrhythmia-database-1.0.0\119.atr
+MIT-BIH: 34045 beats from 16 records | Normal 25421 (74.67%), Abnormal 8624 (25.33%)
+  stratified by abnormal fraction (range 0.3%-100.0%)
+  record-level split: 11 train / 3 val / 2 test records
+  beats: 23194 train / 6211 val / 4640 test
+
+[MIT-BIH] training baseline (train_baseline_1d)...
+Training on single CPU.
+Initializing input data normalization.
+|======================================================================================================================|
+|  Epoch  |  Iteration  |  Time Elapsed  |  Mini-batch  |  Validation  |  Mini-batch  |  Validation  |  Base Learning  |
+|         |             |   (hh:mm:ss)   |   Accuracy   |   Accuracy   |     Loss     |     Loss     |      Rate       |
+|======================================================================================================================|
+|       1 |           1 |       00:00:00 |       37.50% |       16.70% |       1.2387 |       1.3144 |          0.0010 |
+|       1 |          50 |       00:00:03 |      100.00% |       52.55% |       0.0405 |       0.7538 |          0.0010 |
+|       1 |         100 |       00:00:05 |       97.66% |       71.66% |       0.0529 |       0.7021 |          0.0010 |
+|       1 |         150 |       00:00:07 |      100.00% |       44.94% |       0.0257 |       1.0612 |          0.0010 |
+|       2 |         200 |       00:00:09 |       99.22% |       49.35% |       0.0394 |       1.5066 |          0.0010 |
+|       2 |         250 |       00:00:11 |       98.44% |       39.85% |       0.0268 |       1.8017 |          0.0010 |
+|       2 |         300 |       00:00:13 |       97.66% |       42.05% |       0.0536 |       1.6767 |          0.0010 |
+|       2 |         350 |       00:00:15 |       99.22% |       46.69% |       0.0584 |       1.4850 |          0.0010 |
+|       3 |         400 |       00:00:17 |      100.00% |       66.45% |       0.0256 |       1.4560 |          0.0010 |
+|       3 |         450 |       00:00:19 |      100.00% |       45.10% |       0.0102 |       1.7760 |          0.0010 |
+|       3 |         500 |       00:00:21 |      100.00% |       42.59% |       0.0126 |       2.0358 |          0.0010 |
+|       4 |         550 |       00:00:23 |       98.44% |       38.71% |       0.0247 |       2.3896 |          0.0010 |
+|       4 |         600 |       00:00:25 |       98.44% |       38.93% |       0.0436 |       2.4030 |          0.0010 |
+|       4 |         650 |       00:00:27 |      100.00% |       57.96% |       0.0099 |       1.9262 |          0.0010 |
+|       4 |         700 |       00:00:29 |      100.00% |       50.06% |       0.0084 |       1.7683 |          0.0010 |
+|       5 |         750 |       00:00:31 |       99.22% |       39.06% |       0.0379 |       2.7523 |          0.0010 |
+|       5 |         800 |       00:00:33 |       98.44% |       38.38% |       0.0381 |       2.7260 |          0.0010 |
+|       5 |         850 |       00:00:34 |       98.44% |       50.83% |       0.0599 |       2.0332 |          0.0010 |
+|       5 |         900 |       00:00:36 |       99.22% |       43.12% |       0.0329 |       2.0939 |          0.0010 |
+|       6 |         950 |       00:00:38 |      100.00% |       47.53% |       0.0033 |       2.0076 |          0.0010 |
+|       6 |        1000 |       00:00:40 |      100.00% |       46.13% |       0.0060 |       2.2874 |          0.0010 |
+|       6 |        1050 |       00:00:42 |       99.22% |       54.48% |       0.0240 |       2.1686 |          0.0010 |
+|       7 |        1100 |       00:00:44 |       99.22% |       39.74% |       0.0397 |       2.8295 |          0.0010 |
+|       7 |        1150 |       00:00:46 |      100.00% |       44.73% |       0.0095 |       2.4612 |          0.0010 |
+|       7 |        1200 |       00:00:48 |       99.22% |       40.73% |       0.0099 |       2.5165 |          0.0010 |
+|       7 |        1250 |       00:00:50 |      100.00% |       48.27% |       0.0044 |       2.0342 |          0.0010 |
+|       8 |        1300 |       00:00:51 |       99.22% |       45.87% |       0.0223 |       2.8150 |          0.0010 |
+|       8 |        1350 |       00:00:53 |      100.00% |       39.08% |       0.0080 |       2.9214 |          0.0010 |
+|       8 |        1400 |       00:00:55 |      100.00% |       42.10% |       0.0106 |       2.6733 |          0.0010 |
+|       9 |        1450 |       00:00:57 |       99.22% |       41.20% |       0.0182 |       2.6626 |          0.0010 |
+|       9 |        1500 |       00:00:59 |      100.00% |       38.79% |       0.0020 |       2.8822 |          0.0010 |
+|       9 |        1550 |       00:01:01 |      100.00% |       54.87% |       0.0118 |       2.4349 |          0.0010 |
+|       9 |        1600 |       00:01:02 |       98.44% |       44.26% |       0.0729 |       2.4283 |          0.0010 |
+|      10 |        1650 |       00:01:04 |       98.44% |       39.06% |       0.0384 |       3.5625 |          0.0010 |
+|      10 |        1700 |       00:01:06 |       99.22% |       41.27% |       0.0450 |       2.5228 |          0.0010 |
+|      10 |        1750 |       00:01:08 |      100.00% |       41.76% |       0.0068 |       2.9077 |          0.0010 |
+|      10 |        1800 |       00:01:10 |       99.22% |       40.70% |       0.0129 |       2.5792 |          0.0010 |
+|      10 |        1810 |       00:01:10 |       99.22% |       40.03% |       0.0157 |       2.9620 |          0.0010 |
+|======================================================================================================================|
+Training finished: Max epochs completed.
+[MIT-BIH] fine-tuning control arm (no pruning)...
+  [CONTROL] iteration 1/2 complete | remaining prunables: 39
+  [CONTROL] iteration 2/2 complete | remaining prunables: 39
+  [CONTROL] done. learnables: 6754
+[MIT-BIH] pruning arm...
+  [PRUNE] iteration 1/2 complete | remaining prunables: 35
+  [PRUNE] iteration 2/2 complete | remaining prunables: 31
+  [PRUNE] done. learnables: 5172
+
+[MIT-BIH] theoretical cost, baseline:
+--- FLOP report -------------------------------------------
+       <strong>Layer</strong>                      <strong>Type</strong>                     <strong>OutputSize</strong>       <strong>MACs</strong>  
+    <strong>___________</strong>    <strong>__________________________________</strong>    <strong>______________</strong>    <strong>_______</strong>
+
+    {'input'  }    {'nnet.cnn.layer.ImageInputLayer'}    {'[250 1]'   }          0
+    {'conv1'  }    {'conv2d'                        }    {'[250 1 16]'}      20000
+    {'bn1'    }    {'batchnorm'                     }    {'[250 1 16]'}          0
+    {'relu1'  }    {'relu'                          }    {'[250 1 16]'}          0
+    {'pool1'  }    {'maxpool'                       }    {'[125 1 16]'}          0
+    {'conv2'  }    {'conv2d'                        }    {'[125 1 32]'}    3.2e+05
+    {'bn2'    }    {'batchnorm'                     }    {'[125 1 32]'}          0
+    {'relu2'  }    {'relu'                          }    {'[125 1 32]'}          0
+    {'pool2'  }    {'maxpool'                       }    {'[62 1 32]' }          0
+    {'fc'     }    {'fc'                            }    {'[2 1]'     }       3968
+    {'softmax'}    {'nnet.cnn.layer.SoftmaxLayer'   }    {'[2 1]'     }          0
+
+  conv MACs         :       340000
+  fc   MACs         :         3968
+  TOTAL MACs        :       343968
+  TOTAL FLOPs (2xM) :       687936
+  learnable params  :         6754
+-----------------------------------------------------------
+[MIT-BIH] theoretical cost, baseline_ft:
+--- FLOP report -------------------------------------------
+       <strong>Layer</strong>                      <strong>Type</strong>                     <strong>OutputSize</strong>       <strong>MACs</strong>  
+    <strong>___________</strong>    <strong>__________________________________</strong>    <strong>______________</strong>    <strong>_______</strong>
+
+    {'input'  }    {'nnet.cnn.layer.ImageInputLayer'}    {'[250 1]'   }          0
+    {'conv1'  }    {'conv2d'                        }    {'[250 1 16]'}      20000
+    {'bn1'    }    {'batchnorm'                     }    {'[250 1 16]'}          0
+    {'relu1'  }    {'relu'                          }    {'[250 1 16]'}          0
+    {'pool1'  }    {'maxpool'                       }    {'[125 1 16]'}          0
+    {'conv2'  }    {'conv2d'                        }    {'[125 1 32]'}    3.2e+05
+    {'bn2'    }    {'batchnorm'                     }    {'[125 1 32]'}          0
+    {'relu2'  }    {'relu'                          }    {'[125 1 32]'}          0
+    {'pool2'  }    {'maxpool'                       }    {'[62 1 32]' }          0
+    {'fc'     }    {'fc'                            }    {'[2 1]'     }       3968
+    {'softmax'}    {'nnet.cnn.layer.SoftmaxLayer'   }    {'[2 1]'     }          0
+
+  conv MACs         :       340000
+  fc   MACs         :         3968
+  TOTAL MACs        :       343968
+  TOTAL FLOPs (2xM) :       687936
+  learnable params  :         6754
+-----------------------------------------------------------
+[MIT-BIH] theoretical cost, pruned:
+--- FLOP report -------------------------------------------
+       <strong>Layer</strong>                      <strong>Type</strong>                     <strong>OutputSize</strong>         <strong>MACs</strong>   
+    <strong>___________</strong>    <strong>__________________________________</strong>    <strong>______________</strong>    <strong>__________</strong>
+
+    {'input'  }    {'nnet.cnn.layer.ImageInputLayer'}    {'[250 1]'   }             0
+    {'conv1'  }    {'conv2d'                        }    {'[250 1 15]'}         18750
+    {'bn1'    }    {'batchnorm'                     }    {'[250 1 15]'}             0
+    {'relu1'  }    {'relu'                          }    {'[250 1 15]'}             0
+    {'pool1'  }    {'maxpool'                       }    {'[125 1 15]'}             0
+    {'conv2'  }    {'conv2d'                        }    {'[125 1 25]'}    2.3438e+05
+    {'bn2'    }    {'batchnorm'                     }    {'[125 1 25]'}             0
+    {'relu2'  }    {'relu'                          }    {'[125 1 25]'}             0
+    {'pool2'  }    {'maxpool'                       }    {'[62 1 25]' }             0
+    {'fc'     }    {'fc'                            }    {'[2 1]'     }          3100
+    {'softmax'}    {'nnet.cnn.layer.SoftmaxLayer'   }    {'[2 1]'     }             0
+
+  conv MACs         :       253125
+  fc   MACs         :         3100
+  TOTAL MACs        :       256225
+  TOTAL FLOPs (2xM) :       512450
+  learnable params  :         5172
+-----------------------------------------------------------
+
+[MIT-BIH] THEORETICAL MAC reduction   : 25.51%
+[MIT-BIH] THEORETICAL param reduction : 23.42%
+
+[MIT-BIH] test set: Normal=4078  Abnormal=562
+[MIT-BIH] majority-class baseline: 87.89%
+[MIT-BIH] accuracy   baseline 77.65%  baseline_ft 63.08%  pruned 62.05%
+[MIT-BIH] balanced   baseline 79.23%  baseline_ft 62.97%  pruned 44.89%
+[MIT-BIH]   effect of extra training : -16.27 pp balanced
+[MIT-BIH]   effect of pruning alone  : -18.08 pp balanced
+
+
+=== Interleaved measurement: 6 blocks x 3 conditions ===
+    60 s per measurement, 20 s settle, order randomised per block
+
+-- block 1/6  order: pruned -> baseline -> baseline_ft
+[pruned        ]   8339 batches x 128 =   1067392 inferences in  60.00 s |  17789.7 inf/s | 7.1952 ms/batch
+[baseline      ]   7363 batches x 128 =    942464 inferences in  60.01 s |  15706.1 inf/s | 8.1497 ms/batch
+[baseline_ft   ]   7349 batches x 128 =    940672 inferences in  60.00 s |  15677.5 inf/s | 8.1646 ms/batch
+
+-- block 2/6  order: pruned -> baseline_ft -> baseline
+[pruned        ]   8691 batches x 128 =   1112448 inferences in  60.01 s |  18539.1 inf/s | 6.9043 ms/batch
+[baseline_ft   ]   7369 batches x 128 =    943232 inferences in  60.00 s |  15720.1 inf/s | 8.1425 ms/batch
+[baseline      ]   5778 batches x 128 =    739584 inferences in  60.00 s |  12325.4 inf/s | 10.3851 ms/batch
+
+-- block 3/6  order: baseline -> baseline_ft -> pruned
+[baseline      ]   5103 batches x 128 =    653184 inferences in  60.01 s |  10885.4 inf/s | 11.7588 ms/batch
+[baseline_ft   ]   5568 batches x 128 =    712704 inferences in  60.00 s |  11878.1 inf/s | 10.7761 ms/batch
+[pruned        ]   6178 batches x 128 =    790784 inferences in  60.01 s |  13177.2 inf/s | 9.7138 ms/batch
+
+-- block 4/6  order: baseline_ft -> baseline -> pruned
+[baseline_ft   ]   5795 batches x 128 =    741760 inferences in  60.01 s |  12361.0 inf/s | 10.3552 ms/batch
+[baseline      ]   5399 batches x 128 =    691072 inferences in  60.01 s |  11516.0 inf/s | 11.1150 ms/batch
+[pruned        ]   5700 batches x 128 =    729600 inferences in  60.00 s |  12159.9 inf/s | 10.5264 ms/batch
+
+-- block 5/6  order: pruned -> baseline -> baseline_ft
+[pruned        ]   6720 batches x 128 =    860160 inferences in  60.01 s |  14334.1 inf/s | 8.9297 ms/batch
+[baseline      ]   2466 batches x 128 =    315648 inferences in  60.02 s |   5258.9 inf/s | 24.3395 ms/batch
+[baseline_ft   ]   2350 batches x 128 =    300800 inferences in  60.01 s |   5012.7 inf/s | 25.5353 ms/batch
+
+-- block 6/6  order: baseline_ft -> pruned -> baseline
+[baseline_ft   ]   2728 batches x 128 =    349184 inferences in  60.02 s |   5818.2 inf/s | 22.0000 ms/batch
+[pruned        ]   7930 batches x 128 =   1015040 inferences in  60.01 s |  16915.3 inf/s | 7.5671 ms/batch
+[baseline      ]   5714 batches x 128 =    731392 inferences in  60.01 s |  12188.3 inf/s | 10.5019 ms/batch
+
+[Warning: 2 of 3370 log rows had unparseable timestamps and were excluded.] 
+[> In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('parse_hwinfo_log>load_log_cached', 'D:\claude_projects\ICIEAHS 2026\research_v4\code_v1\v2\parse_hwinfo_log.m', 133)" style="font-weight:bold">parse_hwinfo_log>load_log_cached</a> (<a href="matlab: opentoline('D:\claude_projects\ICIEAHS 2026\research_v4\code_v1\v2\parse_hwinfo_log.m',133,0)">line 133</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('parse_hwinfo_log', 'D:\claude_projects\ICIEAHS 2026\research_v4\code_v1\v2\parse_hwinfo_log.m', 46)" style="font-weight:bold">parse_hwinfo_log</a> (<a href="matlab: opentoline('D:\claude_projects\ICIEAHS 2026\research_v4\code_v1\v2\parse_hwinfo_log.m',46,0)">line 46</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('attach_power_to_table', 'D:\claude_projects\ICIEAHS 2026\research_v4\code_v1\v2\attach_power_to_table.m', 35)" style="font-weight:bold">attach_power_to_table</a> (<a href="matlab: opentoline('D:\claude_projects\ICIEAHS 2026\research_v4\code_v1\v2\attach_power_to_table.m',35,0)">line 35</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('run_experiment_v3', 'D:\claude_projects\ICIEAHS 2026\research_v4\code_v1\v2\run_experiment_v3.m', 127)" style="font-weight:bold">run_experiment_v3</a> (<a href="matlab: opentoline('D:\claude_projects\ICIEAHS 2026\research_v4\code_v1\v2\run_experiment_v3.m',127,0)">line 127</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('run_mitbih_v3', 'D:\claude_projects\ICIEAHS 2026\research_v4\code_v1\v2\run_mitbih_v3.m', 22)" style="font-weight:bold">run_mitbih_v3</a> (<a href="matlab: opentoline('D:\claude_projects\ICIEAHS 2026\research_v4\code_v1\v2\run_mitbih_v3.m',22,0)">line 22</a>)] 
+{Error using <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('parse_hwinfo_log', 'D:\claude_projects\ICIEAHS 2026\research_v4\code_v1\v2\parse_hwinfo_log.m', 63)" style="font-weight:bold">parse_hwinfo_log</a> (<a href="matlab: opentoline('D:\claude_projects\ICIEAHS 2026\research_v4\code_v1\v2\parse_hwinfo_log.m',63,0)">line 63</a>)
+No log rows between 14-Aug-2026 20:35:15 and 14-Aug-2026 20:36:15.
+Log spans 14-Aug-2026 11:27:27 to 14-Aug-2026 13:20:04 (3368 of 3370 rows parsed).
+If the window IS inside that span, the timestamp parse is at fault -- check s.parseReport.
+
+Error in <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('attach_power_to_table', 'D:\claude_projects\ICIEAHS 2026\research_v4\code_v1\v2\attach_power_to_table.m', 35)" style="font-weight:bold">attach_power_to_table</a> (<a href="matlab: opentoline('D:\claude_projects\ICIEAHS 2026\research_v4\code_v1\v2\attach_power_to_table.m',35,0)">line 35</a>)
+        s = parse_hwinfo_log(csvPath, T.startTime(i), T.endTime(i), ...
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Error in <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('run_experiment_v3', 'D:\claude_projects\ICIEAHS 2026\research_v4\code_v1\v2\run_experiment_v3.m', 127)" style="font-weight:bold">run_experiment_v3</a> (<a href="matlab: opentoline('D:\claude_projects\ICIEAHS 2026\research_v4\code_v1\v2\run_experiment_v3.m',127,0)">line 127</a>)
+        T = attach_power_to_table(T, opts.hwinfoCsv, idleWatts = opts.idleWatts);
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Error in <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('run_mitbih_v3', 'D:\claude_projects\ICIEAHS 2026\research_v4\code_v1\v2\run_mitbih_v3.m', 22)" style="font-weight:bold">run_mitbih_v3</a> (<a href="matlab: opentoline('D:\claude_projects\ICIEAHS 2026\research_v4\code_v1\v2\run_mitbih_v3.m',22,0)">line 22</a>)
+T_mitbih = run_experiment_v3('MIT-BIH', XTr,YTr, XVa,YVa, XTe,YTe, ...
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+} 
+run_mitbih_v3

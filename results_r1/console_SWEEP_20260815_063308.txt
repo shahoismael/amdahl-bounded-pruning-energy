@@ -1,0 +1,85 @@
+Batch sweep v3 started 15-Aug-2026 06:33:08
+Loaded 10000 images (28x28) and 10000 labels.
+
+=== batch 1 ===
+  rep 1 baseline_ft    8542 batches  1170.774 us/inf
+  rep 1 pruned        10580 batches  945.211 us/inf
+  rep 2 baseline_ft   16091 batches  621.495 us/inf
+  rep 2 pruned        16566 batches  603.657 us/inf
+  rep 3 baseline_ft   16261 batches  614.995 us/inf
+  rep 3 pruned        16528 batches  605.052 us/inf
+  rep 4 baseline_ft   16310 batches  613.130 us/inf
+  rep 4 pruned        16587 batches  602.893 us/inf
+  rep 5 baseline_ft   16402 batches  609.695 us/inf
+  rep 5 pruned        16728 batches  597.822 us/inf
+  rep 6 baseline_ft   16370 batches  610.878 us/inf
+  rep 6 pruned        16647 batches  600.712 us/inf
+  rep 7 baseline_ft   16377 batches  610.640 us/inf
+  rep 7 pruned        16650 batches  600.606 us/inf
+
+=== batch 8 ===
+  rep 1 baseline_ft    8329 batches  150.079 us/inf
+  rep 1 pruned         8150 batches  153.375 us/inf
+  rep 2 baseline_ft    8313 batches  150.371 us/inf
+  rep 2 pruned         8169 batches  153.036 us/inf
+  rep 3 baseline_ft    8317 batches  150.300 us/inf
+  rep 3 pruned         8143 batches  153.518 us/inf
+  rep 4 baseline_ft    8323 batches  150.203 us/inf
+  rep 4 pruned         8113 batches  154.085 us/inf
+  rep 5 baseline_ft    8330 batches  150.061 us/inf
+  rep 5 pruned         8165 batches  153.099 us/inf
+  rep 6 baseline_ft    8328 batches  150.101 us/inf
+  rep 6 pruned         7936 batches  157.527 us/inf
+  rep 7 baseline_ft    8286 batches  150.864 us/inf
+  rep 7 pruned         8110 batches  154.134 us/inf
+
+=== batch 32 ===
+  rep 1 baseline_ft    5254 batches  59.486 us/inf
+  rep 1 pruned         5410 batches  57.773 us/inf
+  rep 2 baseline_ft    5231 batches  59.749 us/inf
+  rep 2 pruned         5402 batches  57.857 us/inf
+  rep 3 baseline_ft    5279 batches  59.207 us/inf
+  rep 3 pruned         5349 batches  58.426 us/inf
+  rep 4 baseline_ft    5276 batches  59.239 us/inf
+  rep 4 pruned         5401 batches  57.863 us/inf
+  rep 5 baseline_ft    5246 batches  59.586 us/inf
+  rep 5 pruned         5381 batches  58.078 us/inf
+  rep 6 baseline_ft    5278 batches  59.209 us/inf
+  rep 6 pruned         5383 batches  58.062 us/inf
+  rep 7 baseline_ft    5277 batches  59.221 us/inf
+  rep 7 pruned         5398 batches  57.902 us/inf
+
+=== batch 128 ===
+  rep 1 baseline_ft    1817 batches  42.998 us/inf
+  rep 1 pruned         2032 batches  38.455 us/inf
+  rep 2 baseline_ft    1812 batches  43.123 us/inf
+  rep 2 pruned         2033 batches  38.429 us/inf
+  rep 3 baseline_ft    1807 batches  43.251 us/inf
+  rep 3 pruned         2041 batches  38.285 us/inf
+  rep 4 baseline_ft    1822 batches  42.893 us/inf
+  rep 4 pruned         2051 batches  38.099 us/inf
+  rep 5 baseline_ft    1811 batches  43.158 us/inf
+  rep 5 pruned         2036 batches  38.374 us/inf
+  rep 6 baseline_ft    1797 batches  43.487 us/inf
+  rep 6 pruned         2044 batches  38.237 us/inf
+  rep 7 baseline_ft    1804 batches  43.325 us/inf
+  rep 7 pruned         2028 batches  38.528 us/inf
+
+=== batch 512 ===
+  rep 1 baseline_ft     381 batches  51.332 us/inf
+  rep 1 pruned          445 batches  43.940 us/inf
+  rep 2 baseline_ft     382 batches  51.227 us/inf
+  rep 2 pruned          444 batches  43.990 us/inf
+  rep 3 baseline_ft     381 batches  51.386 us/inf
+  rep 3 pruned          444 batches  44.050 us/inf
+  rep 4 baseline_ft     378 batches  51.691 us/inf
+  rep 4 pruned          445 batches  43.977 us/inf
+  rep 5 baseline_ft     383 batches  51.127 us/inf
+  rep 5 pruned          444 batches  44.075 us/inf
+  rep 6 baseline_ft     380 batches  51.461 us/inf
+  rep 6 pruned          445 batches  43.969 us/inf
+  rep 7 baseline_ft     381 batches  51.330 us/inf
+  rep 7 pruned          443 batches  44.113 us/inf
+
+wrote batch_sweep_v3.csv
+Batch sweep v3 finished 15-Aug-2026 06:45:00
